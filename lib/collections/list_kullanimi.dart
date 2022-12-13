@@ -40,7 +40,7 @@ void main() {
   // Fonksiyonları
 
   print(meyveler.isEmpty); //meyveler dizisi boş mu diye sorduk false cevabını aldık.
-  print(meyveler.contains("Muzx")); // meyveler dizisinin için Muzx var mı diye sorduk false cevabını aldık. Muz diye sorsaydık true dönecekti.
+  print(meyveler.contains("Muzx")); // meyveler dizisinin için Muzx var mı diye sorduk false cevabını aldık. Muz diye sorsaydık true cevabı dönecekti.
 
   var liste = meyveler.reversed.toList(); // mevcut listeyi tersine döndüren fonksiyon reversed. to liste çevirdik.
   print(liste);
